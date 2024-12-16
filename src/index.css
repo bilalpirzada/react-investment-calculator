@@ -14,6 +14,11 @@ body {
   min-height: 100vh;
 }
 
+main{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 #header {
   text-align: center;
   margin: 3rem auto;
@@ -36,13 +41,14 @@ body {
   max-width: 30rem;
   margin: 2rem auto;
   border-radius: 4px;
-  background: linear-gradient(180deg, #307e6c, #2b996d);
 }
 
 .input-group {
   display: flex;
   justify-content: space-evenly;
   gap: 1.5rem;
+  
+  background: linear-gradient(180deg, #307e6c, #2b996d);
 }
 
 #user-input label {
