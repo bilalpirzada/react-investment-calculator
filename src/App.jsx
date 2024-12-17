@@ -14,6 +14,26 @@ function App() {
           <UserInput label="DURATION"/>
         </div>
       </div>
+      <table id="result">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Investment Value</th>
+            <th>Interest(Year)</th>
+            <th>Total Interest</th>
+            <th>Invested Capital</th>
+          </tr>
+        </thead>
+        <tbody className="center">
+          <tr>
+            <td>1</td>
+            <td>100</td>
+            <td>123</td>
+            <td>4545</td>
+            <td>678</td>
+          </tr>
+        </tbody>
+      </table>
     </main> 
 }
 
